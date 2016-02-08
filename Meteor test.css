@@ -1,0 +1,19 @@
+/* CSS declarations go here */
+
+.canvas {
+	background-color: #cee4eb;
+	height: 100%;
+	position: relative;
+}
+
+.circle {
+	background-color: #157e95;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	border-radius: 10px;
+}
+
+body, html {
+	height: 100%;
+}

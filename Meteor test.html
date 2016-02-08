@@ -1,0 +1,11 @@
+<head>
+	<title>Meteor test</title>
+</head>
+
+<body>
+	<div class="canvas">
+		{{#if lastEvent}}
+			<div class="circle" style="left: {{lastEvent.position.[0]}}px; top: {{lastEvent.position.[1]}}px"></div>
+		{{/if}}
+	</div>
+</body>
