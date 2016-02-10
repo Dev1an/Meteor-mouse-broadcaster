@@ -5,7 +5,7 @@ if (Meteor.isClient) {
 		'mousemove .canvas'(event) {
 			Events.insert({
 				name: 'moved',
-				position: [event.clientX, event.clientY, 10],
+				position: [event.clientX - 12, event.clientY - 12, 10],
 				date: new Date()
 			})
 		}
